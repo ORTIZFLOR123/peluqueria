@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+Merriweather
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+body {
+    font-family:'Playfair Display';
+    background-color: #1f1e1e;
+   
+
+}
+.contenedor{
+     max-width: 1200px;
+     margin: 0 auto;
+
+}
+.header{
+    min-height: 110vh;
+    display: flex;
+    align-items: center;flex-direction: column;
+    
+}
+.menu{
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 10px;
+}
+
+
+
+
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ce487b;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    padding: 20px;
+    color: #ffff;
+    display: flex;
+}
+.fa-brands{
+    font-size: 3rem;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+
+}
+.menu .navbar ul li a:hover{
+    color: #ce487d;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+
+}
+.header-tex{
+    margin: 200px;
+    text-align: center;
+    margin-bottom: 25px;
+    
+  
+}
+.header-tex h1, span,h3{
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family:'playfair display';
+    color: #c5357d;
+    margin-bottom: 25px;
+}
+.header-tex span{
+    font-size: 35px;
+}
+.header-tex p {
+    color: #afafaf;
+    padding: 0 150px;
+    margin:80px 0;
+}
+
+
+
+.btn-1{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #c5357d;
+    color:#fcfafa;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    margin: 25px 0;
+    border: 0;
+}
+.btn-1:hover{
+    background-color: #ce487b;;
+    background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+}
+.header-direct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+.direct h3{
+    font-size:20px ;
+}
+.direct p{
+    font-size: 22px;
+    color: #e9e2e2;
+    text-transform: uppercase;
+
+}
+.Bienvenidos{
+    height: 110vh;
+    display: flex;
+    background-color: #b8c411;
+
+}
+.Bienvenidos-1{
+    background-image: url(logo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.Bienvenidos-2{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #f1f1e8;
+}
+h2{
+    font-size: 40px;
+    line-height: 100px;
+    background-color: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+    text-transform: uppercase;
+    font-family:  'Playfair Display';
+    margin-bottom: 20px;
+
+}
+p{
+    color: #f3eeee;
+    margin: 25px 0;
+
+}
+.b1{
+    color: #ce487b;
+
+}
+.servicios .contenedor{
+    color: #ce487b;
+}
+.servicios{
+    padding: 40px 0;
+    text-align: center;
+    
+}
+.servicios-1 ul{
+    background-image: #ece0e0;
+}
+.servicios-tex{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px
+}
+hr{
+    border: 1px solid  #ce487b;
+    width: 80px;
+
+}
+.servicios-tex p{
+    padding: 50p;
+
+}
+.servicios-gruop{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+.servicios-1{
+    background-color: #191919;
+    padding:  35px 25px;
+    margin:0 10px ;
+    border-radius: 15px;
+}
+.servicios-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+.servicios-1 h3{
+    font-size: 25px;
+    color:#faf5f5;
+
+}
+.servicios-1 a {
+    color: #ce487b;
+    font-size: 16px;
+}
+.Precios{
+    
+    height: 100vh;
+    display: flex;
+
+}
+.Precios h2{
+    margin-bottom: 2px;
+   
+    font-size: 30px;
+    color: #ce487b;
+}
+    
+
+.Precios-1 { 
+    width: 40%;
+    padding: 150px 200px 200px 100px;
+    background-color: hsl(0, 0%, 3%);
+   
+
+}
+table{
+    margin: 10px ;
+    width: 100%;
+    border-collapse:separate ;
+    margin-top: 5px;
+
+    
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf
+}
+th{
+    color: #ffff;
+    padding-bottom: 15px;
+}
+td{
+    color: #ce487b;
+}
+.Precios-2{
+    background-image:  url(precios.png);
+    width: 50%;
+    
+}
+
+
+
+.footer{
+    height: 120vh;
+    background-image: url(logo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat t;
+    background-size: cover;
+    text-align: center;
+    padding: 1000px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Trabajos{
+    
+    text-align: center;
+    height: 130vh;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+   
+    
+}
+    
+.imagenes{
+    display: grid;
+    grid-auto-flow: dense;
+    gap: 200px;
+    grid-template-columns:150px 150px 200px;
+    grid-template-rows: 200px;
+    border: 10px solid;
+    border-color:#c5357d;
+     
+   
+}
+.sobre-text h2,h4{
+    color: #c5357d;
+
+}
+.sobre-text h4{
+    font-size: 30px;
+}
+
+.img{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+}
+.footer-bg{
+    color: #c5357d;
+    margin-top: 100px;
+    text-align: center;
+}
+.campo-1{
+    margin-bottom: 15px;
+}
+.campo{
+    margin: 5px;
+    padding: 20px 15px ;
+    width: 200px;
+    background-color:#0e0e0e;
+    color: #ce487b;
+    outline: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 10px;
+}
+textarea{
+    width: 520px !important;
+}
+.footer-tex{
+    text-align: center;
+    padding: 5px;
+    background-color: #c5357d;
+}
+
+
+
+@media(max-width:600px){
+    h2, p , ul{
+        font-size: 20px;
+        padding: 5px;
+    }
+    tbody{
+        font-size: 10px;
+    }
+    
+  
+    .navbar{
+         width: 100%;
+         position: absolute;
+         top: 50px;
+         flex-direction: column;
+         text-align: center;
+         justify-content: center;
+         font-size: 35px;
+    }
+    .clasemenu{
+        display: flex;
+    
+    }
+    .fa-solid{
+        font-size:30px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    
+    }  
+    .fa-bars{
+        visibility: 1;
+        color:#e9e2e2
+    }
+    .header-direct{
+        align-items: center;
+        flex-direction: column;
+    }
+    .Bienvenidos-2{
+        font-size: 15px;
+        flex-direction: column;
+
+    }
+    
+}
